@@ -1,0 +1,64 @@
+
+body {
+    background-color: #EEEEEE;
+    height: 100%;
+}
+
+
+.button-area {
+    background-color: #041562;
+}
+
+.button-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#button-roll {
+    background-color: #DA1212;
+    color: #EEEEEE;
+    height: 100px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    font-size: 6vmin;
+}
+
+#button-roll:hover {
+    background-color: #f80b0b;
+}
+
+.winner-area {
+    margin-top: 50px;
+}
+
+#winner {
+    font-family: 'Lobster', sans-serif;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+#player1-win-mark, 
+#player2-win-mark {
+    width: 30%;
+    min-width: 75px;
+}
+
+
+#player1-dice-img, 
+#player2-dice-img {
+    width: 50%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
+.player {
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.5vmax;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.player1-dice,
+.player2-dice {
+    text-align: center;
+}
